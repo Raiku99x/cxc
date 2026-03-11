@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Slytherin Classroom",
+    "slug": "slytherin-classroom",
+    "version": "1.3.1",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/logo.png",
+    "scheme": "slytherin",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ede6d6"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.slytherin.classroom"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/logo.png",
+        "backgroundColor": "#ede6d6"
+      },
+      "package": "com.slytherin.classroom"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./src/assets/images/logo.png"
+    },
+    "plugins": ["expo-router", "expo-secure-store"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
